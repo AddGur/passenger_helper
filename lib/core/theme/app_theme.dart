@@ -9,6 +9,15 @@ class AppTheme {
     appBarTheme: AppBarTheme(
       backgroundColor: Colors.deepPurple.shade800,
     ),
+    cardTheme: CardTheme(
+      color: Colors.grey[900],
+      shadowColor: Colors.black87,
+      elevation: 4,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(16),
+      ),
+      margin: EdgeInsets.all(10),
+    ),
     colorScheme: ColorScheme.dark(
       primary: Colors.deepPurple,
       secondary: Colors.purpleAccent,
@@ -40,6 +49,15 @@ class AppTheme {
     scaffoldBackgroundColor: Colors.white,
     appBarTheme: AppBarTheme(
       backgroundColor: Colors.green.shade600,
+    ),
+    cardTheme: CardTheme(
+      color: Colors.white,
+      shadowColor: Colors.white,
+      elevation: 8,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(16),
+      ),
+      margin: EdgeInsets.all(10),
     ),
     colorScheme: ColorScheme.light(
       primary: Colors.green,

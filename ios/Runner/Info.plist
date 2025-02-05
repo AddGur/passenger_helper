@@ -28,7 +28,12 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+		<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Your app needs your localization</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Your app needs your localization</string>
 	<key>UISupportedInterfaceOrientations</key>
+
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
